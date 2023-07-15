@@ -1,0 +1,126 @@
+
+
+*{
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shop-prev{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.shop-prev_mobile{
+    display: none;
+}
+
+.pictur_mobile{
+    background: url("image 50.jpg") no-repeat;
+    height: 560px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pictur2_mobile{
+    background: url("image 52.jpg") no-repeat;
+    height: 560px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media (max-width: 640px){
+    .shop-prev{
+        display: none;    
+    }  
+    .shop-prev_mobile{
+        display: block;
+    }
+}
+
+
+.pictur{
+    
+    background: url("img.png") no-repeat;
+    height: 600px;
+    background-size: cover;
+
+}
+
+.pictur2{
+    
+    background: url("image 51.jpg") no-repeat;
+    height: 600px;
+    background-size: cover;
+
+}
+
+.pic-text{
+    background: #111111;
+}
+
+.label-text{
+    color: #fff;
+    margin-left: 51px;
+    margin-top: 200px;
+
+}
+.sub-label{
+    color:#FFF;
+    margin-left: 51px;
+    max-width: 470px;
+}
+
+
+.tcenter{
+    margin-left: 180px;
+   
+}
+
+.bgwhite{
+    background: white;
+    
+}
+.cb{
+    color: black;
+}
+
+.label-text_mobile{
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.sub-label_mobile{
+    margin-left: 30px;
+    margin-right: 30px; 
+    color:black;
+    font-size: small; 
+    line-height:200%;
+}
+@media (max-width: 530px){
+.label-text_mobile{
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.sub-label_mobile{
+    margin-left: 30px;
+    margin-right: 30px; 
+    color:#FFF;
+    font-size: small; 
+    line-height:200%;
+}
+}
+.pic-text_mobile{
+    margin-bottom: 50px;
+}
+
+
+
+
